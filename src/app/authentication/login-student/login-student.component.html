@@ -1,0 +1,19 @@
+
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="25">
+        <mat-toolbar color="primary">Login Student</mat-toolbar>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form" [formGroup]="loginFormGroup">
+            <mat-form-field>
+              <mat-label>Email</mat-label>
+              <input matInput formControlName="email" placeholder="eg. john.doe@uno-r.edu.ph">
+            </mat-form-field>
+          
+            <mat-form-field>
+              <mat-label>Password</mat-label>
+              <input matInput formControlName="password" placeholder="password">
+            </mat-form-field>
+
+            <button mat-button mat-raised type="submit" >Login</button>
+          </form>
+    </mat-card>
+</div>
