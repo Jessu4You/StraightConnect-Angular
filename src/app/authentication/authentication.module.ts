@@ -4,7 +4,7 @@ import { AuthenticationRoutingModule } from './authentication-routing.module';
 import { AuthenticationComponent } from './authentication.component';
 import { LoginStudentComponent } from '../login-student/login-student.component';
 
-
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,8 @@ import { LoginStudentComponent } from '../login-student/login-student.component'
   ],
   imports: [
     CommonModule,
-    AuthenticationRoutingModule
+    AuthenticationRoutingModule,
+    MatSliderModule,
   ]
 })
 export class AuthenticationModule { }
