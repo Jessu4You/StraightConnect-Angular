@@ -15,11 +15,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthenticationService } from './authentication.service';
+import { LoginEmployerComponent } from './login-employer/login-employer.component';
 
 @NgModule({
   declarations: [
     AuthenticationComponent,
-    LoginStudentComponent
+    LoginStudentComponent,
+    LoginEmployerComponent
   ],
   imports: [
     CommonModule,
